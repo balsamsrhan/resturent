@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ResturentsProject</string>
+    <string-array name="State">
+        <item>South</item>
+        <item>North</item>
+    </string-array>
+    <string name="selected_item">Selected item:</string>
+    <string-array name="MealsName">
+        <item>فاهيتا جمبري</item>
+        <item>ستيك العجل</item>
+        <item>اسكالوب الدجاج</item>
+        <item>صدر الدجاج المشوي بالثوم والليمون</item>
+        <item>صدر دجاج المشوي بالفطر والكريما</item>
+        <item>فاهيتا العجل</item>
+        <item>بيتزا ايطالي</item>
+        <item>بيتزا امريكي</item>
+        <item>شنيتسل</item>
+        <item>بروست دجاج</item>
+        <item>هامبرورجر كبير</item>
+        <item>صدور الفراخ المقرمشة بالبارميزان</item>
+        <item>ماك أند تشيز</item>
+        <item>الأرز بالجمبري المقلي</item>
+        <item> طاجن الرز بالفراخ</item>
+        <item>طاجن خضروات</item>
+        <item> سلطة سيزر الدجاج</item>
+        <item>سلطة المكرونة اليونانية</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

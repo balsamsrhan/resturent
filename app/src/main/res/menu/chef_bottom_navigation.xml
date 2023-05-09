@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/chefHome"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+
+
+    <item
+        android:id="@+id/resturent"
+        android:icon="@drawable/ic_restaurant_menu_black_24dp"
+        android:title="Post Resturent" />
+
+
+
+    <item
+        android:id="@+id/meal"
+        android:icon="@drawable/ic_dish_spoon_knife"
+        android:title="Post Meal" />
+
+    <item
+        android:id="@+id/profil1"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Profile" />
+
+</menu>

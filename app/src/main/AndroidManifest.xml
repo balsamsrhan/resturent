@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.finalproject2022r">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalProject2022R"
+        tools:targetApi="31">
+        <activity
+            android:name=".custlogin"
+            android:exported="false" />
+        <activity
+            android:name=".statistics"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateDeleteMeals"
+            android:exported="false" />
+        <activity
+            android:name=".UpdatedeleteMeals"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateDeleteMeal"
+            android:exported="false" />
+        <activity
+            android:name=".MealUpdateDelet"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileResturents"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateDeleteRes"
+            android:exported="false" />
+        <activity
+            android:name=".ChefMealAc"
+            android:exported="false" />
+        <activity
+            android:name=".ChefResturentAc"
+            android:exported="false" />
+        <activity
+            android:name=".ChefFoodPanel_BottomNavigation"
+            android:exported="false" />
+        <activity
+            android:name=".ChefRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".Chefloginphone"
+            android:exported="false" />
+        <activity
+            android:name=".ChefLogin"
+            android:exported="false" />
+        <activity
+            android:name=".ChoosOne"
+            android:exported="false" />
+        <activity
+            android:name=".ManiMenu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
